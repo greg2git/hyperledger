@@ -6,7 +6,7 @@ This paper describes the high-level motivation, vision, scope and industry use c
 
 Motivation
 ----------
-blah blah blah
+blah blah blah...sesame open
 
 Vision
 ------
