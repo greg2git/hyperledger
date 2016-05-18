@@ -1,11 +1,26 @@
 # Hyperledger Project
-Hyperledger Project is a new Collaborative Project at The Linux Foundation. The technical community is just getting started and will be adding code to the repository in the coming weeks. Check hyperledger.org for more information about joining the mailing lists and participating in the conversations.
 
-Thank you for your interest in the Hyperledger Project. Currently there have been proposed contributions with potentially others in the future. At present the TSC and community are looking at ways to build a platform that can provide common plumbing for a wide range of use cases and value added solutions on top. Please keep in mind all of the proposals below are simply proposals and that the community will evaluate various ways to get started. Below are the links to the codebases for evaluation purposes, in no particular order:
+Thank you for your interest in the Hyperledger Project, a Collborative Project at the Linux Foundation. The Hyperledger Project seeks to develop a distributed ledger platform that can provide building blocks for a wide range of use cases and value-add solutions. The project operates with some basic principles:
 
-## Hyperledger Incubator
+* Given the diversity of usages, modularity is critical. Examples include transaction semantics, contract languages, consensus, identity, and storage.
 
-The LF has setup an incubator org for various proposals and prototyping efforts. The incubator GitHub org is available at [https://github.com/orgs/hyperledger-incubator](https://github.com/orgs/hyperledger-incubator)
+* Code speaks. The objective of the project is to develop technologies that can be used to build and deploy distributed ledgers quickly and easily.
+
+* The project will evolve over time with better understanding of requirements and emerging usages. While the objective is to develop a single platform, we expect that platform to emerge from a diverse set of approaches.
+
+Check [the community page](http://hyperledger.org/community) for more information about joining the mailing lists and participating in the conversations. Contributions to the Hyperledger Project are expected to progress through a standard [life cycle](https://github.com/hyperledger/hyperledger/wiki/Project-Lifecycle) from incubation through maturity. Several codebases have been offered as a starting point for evaluation:
+
+## Fabric Incubator
+
+[Fabric](https://github.com/hyperledger/fabric) is a project in [Incubation](https://github.com/orgs/hyperledger-incubator) that was proposed by Tamas Blummer (DAH) and Christopher Ferris (IBM) as a result of the first hackathon during which a merge between IBM's proposal and DAH's proposal was started (see [Proposal](https://docs.google.com/document/d/1XECRVN9hXGrjAjysrnuNSdggzAKYm6XESR6KmABwhkE)).
+
+[https://github.com/hyperledger/fabric](https://github.com/hyperledger/fabric)
+
+##Intel Proposed Contribution
+
+Designed for versatility and scalability, [Sawtooth Lake](http://intelledger.github.io/) is Intel’s modular blockchain suite.  Distributed Ledger Technology has potential in many fields with use cases from IoT to Financials.  This architecture recognizes the diversity of requirements across that spectrum.  Sawtooth Lake supports both permissioned and permissionless deployments.  It includes a novel consensus algorithm, Proof of Elapsed Time (PoET).  PoET targets large distributed validator populations with minimal resource consumption.  Transaction business logic is decoupled from the consensus layer into Transaction Families that allow for restricted or unfettered semantics.
+
+[https://github.com/intelledger]([https://github.com/intelledger])
 
 ## Ripple Proposed Contribution
 
@@ -34,3 +49,7 @@ Digital Asset's Hyperledger candidate contribution is an enterprise ready blockc
 Blockstream is contributing [the Elements Project](https://elementsproject.org), a modularized fork of the Bitcoin codebase that adds several major improvements called "Elements".  Elements are composable features that allow a blockchain's attributes to be customized, including [Confidential Transactions](https://elementsproject.org/elements/confidential-transactions), [Segregated Witness](https://elementsproject.org/elements/segregated-witness), and [Deterministic Pegs](https://elementsproject.org/elements/deterministic-pegs).  Sidechains are interoperable blockchains implementing atomic, cross-chain transactions using a choice of federated, permissioned, or decentralized consensus models.  This model allows HyperLedger to interoperate with the existing developer community – sharing progress on testing, scalability, and features – by allowing anyone in the world to utilize shared infrastructure to solve domain-specific problems on purpose-built sidechains.
 
 [https://github.com/ElementsProject/elements](https://github.com/ElementsProject/elements)
+
+## Defunct Hyperledger Incubator
+
+The LF had initially setup an incubator org for various proposals and prototyping efforts. This incubator GitHub org (https://github.com/orgs/hyperledger-incubator) is however no longer used.
