@@ -53,3 +53,5 @@ Blockstream is contributing [the Elements Project](https://elementsproject.org),
 ## Defunct Hyperledger Incubator
 
 The LF had initially setup an incubator org for various proposals and prototyping efforts. This incubator GitHub org (https://github.com/orgs/hyperledger-incubator) is however no longer used.
+
+#my old local copy
